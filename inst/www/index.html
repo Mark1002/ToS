@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>神魔之塔玩家付費預測分析</title>
+    <link rel="shortcut icon" href="./image/favicon.ico" />
+    <!-- Include order: first jquery, then opencpu.js, and then your code -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="./css/ts.css" rel="stylesheet" type="text/css">
+     <script src="./jquery/jquery-1.12.4.min.js"></script>
+     <script src="./opencpu/opencpu-0.5.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <div id="content" class="panel panel-default">
+            <h1>神魔之塔玩家付費預測分析</h1>
+            <button class="btn btn-primary" id="submitbutton" type="button">建立決策樹模型</button>
+            <div class="frame">
+              <div id="output"></div>
+            </div>
+            <button class="btn btn-primary" id="predictButton" type="button">測試資料驗證</button>
+            <div id="check_rate" class="alert alert-danger" role="alert"></div>
+            <h1>作答測試問題</h1>
+            <div id=toolbar>
+              <button class="btn btn-default" id="randomButton" type="button">快速作答</button>
+            </div>
+            <div id="form">
+              <ul class="list-group" id="questions"></ul>
+              <button class="btn btn-primary" id="paid" type="button">是否付費</button>
+            </div>
+            <div id="result"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

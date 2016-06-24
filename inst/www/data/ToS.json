@@ -1,0 +1,42 @@
+{
+  "data": [
+      {"title": "性別", "name": "gender"},
+      {"title": "關卡設計越來越難", "name": "difficulty"},
+      {"title": "美術風格越來越不喜歡", "name": "art"},
+      {"title": "活動副本開放的時間太長 (副本為左上角「古神遺跡」裡的任務)", "name": "specal_battle"},
+      {"title": "召喚師的等級太難升了", "name": "summoner"},
+      {"title": "召喚獸的等級太難升了", "name": "monster"},
+      {"title": "召喚獸的主動技能等級太難升了", "name": "active_skill"},
+      {
+        "title": "召喚獸的等級上限一直沒有開放 (一般召喚獸的最大等級為99等，異界龍系列為70等)",
+        "name": "max_monster_level"
+      },
+      {"title": "這遊戲不平衡 (例如：某種屬性、系列或組對模式等特別強、特別弱", "name": "imbalance"},
+      {"title": "召喚師的等級上限一直沒有開放", "name": "max_summoner_level"},
+      {"title": "召喚獸的卡片太少", "name": "less_card"},
+      {"title": "遊戲模式一直一樣", "name": "mode"},
+      {"title": "這遊戲越來越複雜", "name": "complex"},
+      {"title": "每日的公會任務太零碎", "name": "guild_mission"},
+      {"title": "我不喜歡陳妍希小姐當遊戲代言人", "name": "Michelle"},
+      {"title": "我不喜歡Big Bang當遊戲代言人", "name": "BigBang"},
+      {"title": "此遊戲與其他單位的合作太少", "name": "cooperation"},
+      {
+        "title": "不相關的東西卻合作，非常奇怪(例如：與黃色小鴨、迪士尼、仙劍等等合作，雙方世界觀卻差異)",
+        "name": "irrelevant"
+      },
+      {"title": "合作的企劃不是很用心在規劃 (例如：系列卡片、合作方式)", "name": "sloppy"},
+      {"title": "越來越少人玩了", "name": "less_people"},
+      {"title": "這遊戲太花時間了", "name": "spend_time"},
+      {"title": "別的遊戲壓縮到我玩神魔之塔的時間", "name": "other_game_compress"},
+      {"title": "學校課業或工作壓縮到我的時間", "name": "job_compress"},
+      {"title": "公司的客服不好", "name": "service"},
+      {"title": "送石頭不大方", "name": "not_generous"},
+      {"title": "抽到好卡的機率低", "name": "good_card"},
+      {"title": "抽到重複的卡的機率高", "name": "same_card"},
+      {"title": "遊戲一直有問題 (例如：閃退、黑屏、當機、無故吃石頭)", "name": "problem"},
+      {"title": "關卡上限一直沒有開放", "name": "max_stage"},
+      {"title": "神「抄」之塔，抵制抄襲", "name": "originality"},
+      {"title": "公司的策略根本坑玩家的錢", "name": "marketing_strategies"},
+      {"title": "遊戲抓外掛抓太兇了", "name": "Plugins"}
+  ]
+}

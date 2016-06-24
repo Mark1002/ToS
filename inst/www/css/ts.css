@@ -1,0 +1,53 @@
+ul {
+  list-style-type: decimal;
+}
+
+body {
+  background-image: url(../image/ts_background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#output {
+  position: relative;
+  height: 400px;
+  margin: 10px;
+}
+
+.frame {
+  border: solid gray 1px;
+  border-radius: 3%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#radioGroup {
+  float: right;
+}
+
+#toolbar {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#content {
+  margin-top: 20px;
+  padding: 10px;
+  opacity: 0.8;
+}
+
+#check_rate {
+  margin-top: 10px;
+  font-size: 20px;
+  color: red;
+  display: none;
+}
+
+#result {
+  padding-top: 10px;
+}
+
+.clearfix {
+  overflow: auto;
+}

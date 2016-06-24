@@ -1,0 +1,14 @@
+Package: ToS
+Type: Package
+Title: tos app
+Version: 0.1.0
+Author: Mark Chang
+Maintainer: <ak0922747401@gmail.com>
+Description: a app for predict ToS's players' behavior for paid
+License: GPL
+Imports:
+    xlsx,
+    randomForest,
+    party,
+    jsonlite
+LazyData: TRUE
