@@ -6,7 +6,7 @@
 在 R Console 輸入以下指令
 
     library(devtools)
-    install_github("nabel", "opencpu")
+    install_github("Mark1002/ToS")
     
     library(opencpu)
     opencpu$browse("/library/ToS/www/")
